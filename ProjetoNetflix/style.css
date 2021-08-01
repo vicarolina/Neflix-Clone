@@ -1,0 +1,142 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    margin-left: 5px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filmeprincipal .container{
+    margin-left: 20px;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.filmeprincipal{
+    font-size: 15px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url(img/capafamilia.jpg);
+
+    height: 475px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmeprincipal .descricao{
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 5px;
+}
+
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-block-end: 20px;
+    margin-left: 5px;
+}
+
+.botoes{
+    margin-left: 5px;
+}
+
+.botao1{
+    font-size: 12px;
+    background-color: var(--vermelho);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao2{
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, .50);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao1:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao2:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao1 i{
+    margin-right: 5px;
+}
+
+.botao2 i{
+    margin-right: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.lancamentos{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.minha-lista{
+    margin-top:15px;
+    margin-bottom: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.assistir-novamente{
+    margin-top:15px;
+    margin-bottom: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
